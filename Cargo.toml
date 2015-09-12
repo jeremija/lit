@@ -2,3 +2,9 @@
 name = "lit"
 version = "0.1.0"
 authors = ["Jerko Steiner <jerko.steiner@gmail.com>"]
+
+[dependencies]
+backlight = "0.1.1"
+
+[dependenies.backlight]
+git = "https://github.com/jeremija/backlight.git"
