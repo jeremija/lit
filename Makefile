@@ -10,7 +10,7 @@ clean:
 	cargo clean
 
 .PHONY: install
-install: build
+install:
 	cp target/release/lit "$(FILENAME)"
 	chmod 4755 "$(FILENAME)"
 
